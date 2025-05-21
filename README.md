@@ -53,6 +53,7 @@ Key technical advantages and design principles:
 M5Dial is not just another smart panel; it is a purposefully designed HMI (Human-Machine Interface) component intended for seamless integration into reliable, wired automation systems controlled by LogicMachine. Its strengths lie in the choice of protocol (CANx for reliability), direct integration path with KNX, Zigbee, ModBus, DALI, flexibly configurable but inherently simple user interface, and focus on necessary, reliable functionality. This makes it an attractive choice for projects where long-term stability, ease of use for the end client, and straightforward commissioning are paramount.
 
 
+<br>
 * You can by [M5Dial](https://shop.m5stack.com/products/m5stack-dial-v1-1) and then upload our firmware.
 * You also need a M5CANx wire which design, BOM and links are freely available in this project, directory - CANx_wire_scheme_and_BOM
 
