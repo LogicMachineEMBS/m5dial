@@ -1,11 +1,11 @@
 # M5Dial: Optimized Smart Environment Control via CANx Protocol
 
 ## Challenge to the Current State of Control Panels in the Market:
-Existing control panels often suffer from:
-  1.) Overly complex interfaces: Forcing users to figure out numerous, often ambiguous icons.
-  2.) High cognitive load: Difficulties in recognizing and remembering icons, leading to user frustration.
-  3.) Input inaccuracy: Small touch elements leading to frequent erroneous presses.
-  4.) "Dusty corner effect": When a device is initially used out of interest, but after a few days is forgotten and stops being used altogether.
+Existing control panels often suffer from: <br>
+  1.) Overly complex interfaces: Forcing users to figure out numerous, often ambiguous icons. <br>
+  2.) High cognitive load: Difficulties in recognizing and remembering icons, leading to user frustration. <br>
+  3.) Input inaccuracy: Small touch elements leading to frequent erroneous presses. <br>
+  4.) "Dusty corner effect": When a device is initially used out of interest, but after a few days is forgotten and stops being used altogether. <br>
 
 M5Dial solves common problems of smart home/building control panels by moving away from feature-overloaded interfaces and unreliable wireless communication. Our design philosophy prioritizes simplicity, reliability, and real benefit for both the end user and system integrator.
 
