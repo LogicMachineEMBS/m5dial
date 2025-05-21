@@ -78,3 +78,10 @@ M5Dial is not just another smart panel; it is a purposefully designed HMI (Human
 
 ![fw_upload_03](pictures/fw_upload_03.png)
 
+5. Perform "HARD RESET" of M5Dial device. Disconnect power from device, and then reconnect the power, then press programming button till "HARD RESET" will be shown on M5Dial screen
+
+![fw_upload_04](pictures/fw_upload_01.png)
+
+![fw_upload_05](pictures/fw_upload_04.png)
+
+6. The M5Dial device is ready to work
