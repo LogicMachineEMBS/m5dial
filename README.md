@@ -68,3 +68,10 @@ M5Dial is not just another smart panel; it is a purposefully designed HMI (Human
 * LoadMode = USB
 
 ![fw_upload_02](pictures/fw_upload_02.png)
+
+4. In **SPIDownload** tab
+
+* Tick the checkbox for the first entry in the list
+* Choose the required firmware.bin file and set address (after @) to 0
+* Select correct COM port as detected by the OS
+* Press Start
