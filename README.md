@@ -60,3 +60,11 @@ M5Dial is not just another smart panel; it is a purposefully designed HMI (Human
 2. Connect M5Dial device to PC via USB while holding the programming button
 
 ![fw_upload_01](pictures/fw_upload_01.png)
+
+3. Run **flash_download_tool.exe** and select the following values:
+
+* ChipType = ESP32-S3
+* WorkMode = Develop
+* LoadMode = USB
+
+![fw_upload_02](pictures/fw_upload_02.png)
