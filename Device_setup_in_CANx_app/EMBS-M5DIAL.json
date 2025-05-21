@@ -1,0 +1,485 @@
+{
+  "groups": [
+    {
+      "name": "Display sleep screen click",
+      "objects": [
+        {
+          "datatype": 0.1,
+          "flags": "TRW",
+          "type": "actuator",
+          "id": 1,
+          "name": "Display click",
+          "default": 1
+        }
+      ]
+    },
+
+    {
+      "name": "Display sleep screen hold",
+      "objects": [
+        {
+          "datatype": 0.1,
+          "flags": "TRW",
+          "type": "actuator",
+          "id": 2,
+          "name": "Display hold",
+          "default": 1
+        }
+      ]
+    },
+
+    {
+      "name": "At home / Away",
+      "objects": [
+        {
+          "datatype": 0.1,
+          "flags": "TRW",
+          "type": "actuator",
+          "id": 3,
+          "name": "At home / Away",
+          "default": 1
+        }
+      ]
+    },
+
+    {
+      "name": "Day / Night",
+      "objects": [
+        {
+          "datatype": 0.1,
+          "flags": "TRW",
+          "type": "actuator",
+          "id": 4,
+          "name": "Day / Night",
+          "default": 1
+        }
+      ]
+    },
+
+    {
+      "name": "Thermostat temperature",
+      "objects":[
+        {
+          "datatype": 4.3,
+          "flags": "TRW",
+          "type": "actuator",
+          "id": 5,
+          "name": "Termostat temperature",
+          "default": 1
+        }
+      ]
+    },
+
+    {
+      "name": "Fan",
+      "objects": [
+		    {
+          "datatype": 1.3,
+          "flags": "TRW",
+          "type": "actuator",
+          "id": 6,
+          "name": "Fan",
+          "default": 1
+        }
+      ]
+    },
+    {
+      "name": "Dimmer 1",
+      "objects": [
+        {
+          "options":{
+            "0":"Disabled",
+            "1":"Enabled"
+          },
+          "description": "Enable/Disable Dimmer 1.",
+          "datatype": 0,
+          "flags": "",
+          "type": "config",
+          "id": 7,
+          "name": "Dimmer 1 scene",
+          "default": 1
+        },
+        {
+          "datatype": 1.3,
+          "flags": "TRW",
+          "type": "actuator",
+          "id": 8,
+          "name": "Dimmer 1 brightness",
+          "default": 1
+        },
+        {
+          "datatype": 0.1,
+          "flags": "TRW",
+          "type": "actuator",
+          "id": 9,
+          "name": "Dimmer 1 on/off",
+          "default": 1
+        }
+      ]
+    },
+
+    {
+      "name": "Dimmer 2",
+      "objects": [
+        {
+          "options":{
+            "0":"Disabled",
+            "1":"Enabled"
+          },
+          "description": "Enable/Disable Dimmer 2.",
+          "datatype": 0,
+          "flags": "",
+          "type": "config",
+          "id": 10,
+          "name": "Dimmer 2 scene",
+          "default": 1
+        },
+        {
+          "datatype": 1.3,
+          "flags": "TRW",
+          "type": "actuator",
+          "id": 11,
+          "name": "Dimmer 2 brightness",
+          "default": 1
+        },
+        {
+          "datatype": 0.1,
+          "flags": "TRW",
+          "type": "actuator",
+          "id": 12,
+          "name": "Dimmer 2 on/off",
+          "default": 1
+        }
+      ]
+    },
+
+    {
+      "name": "Dimmer 3",
+      "objects": [
+        {
+          "options":{
+            "0":"Disabled",
+            "1":"Enabled"
+          },
+          "description": "Enable/Disable Dimmer 3.",
+          "datatype": 0,
+          "flags": "",
+          "type": "config",
+          "id": 13,
+          "name": "Dimmer 3 scene",
+          "default": 1
+        },
+        {
+          "datatype": 1.3,
+          "flags": "TRW",
+          "type": "actuator",
+          "id": 14,
+          "name": "Dimmer 3 brightness",
+          "default": 1
+        },
+        {
+          "datatype": 0.1,
+          "flags": "TRW",
+          "type": "actuator",
+          "id": 15,
+          "name": "Dimmer 3 on/off",
+          "default": 1
+        }
+      ]
+    },
+
+    {
+      "name": "Dimmer 4",
+      "objects": [
+        {
+          "options":{
+            "0":"Disabled",
+            "1":"Enabled"
+          },
+          "description": "Enable/Disable Dimmer 4.",
+          "datatype": 0,
+          "flags": "",
+          "type": "config",
+          "id": 16,
+          "name": "Dimmer 4 scene",
+          "default": 1
+        },
+        {
+          "datatype": 1.3,
+          "flags": "TRW",
+          "type": "actuator",
+          "id": 17,
+          "name": "Dimmer 4 brightness",
+          "default": 1
+        },
+        {
+          "datatype": 0.1,
+          "flags": "TRW",
+          "type": "actuator",
+          "id": 18,
+          "name": "Dimmer 4 on/off",
+          "default": 1
+        }
+      ]
+    },
+
+    {
+      "name": "Dimmer 5",
+      "objects": [
+        {
+          "options":{
+            "0":"Disabled",
+            "1":"Enabled"
+          },
+          "description": "Enable/Disable Dimmer 5.",
+          "datatype": 0,
+          "flags": "",
+          "type": "config",
+          "id": 19,
+          "name": "Dimmer 5 scene",
+          "default": 1
+        },
+        {
+          "datatype": 1.3,
+          "flags": "TRW",
+          "type": "actuator",
+          "id": 20,
+          "name": "Dimmer 5 brightness",
+          "default": 1
+        },
+        {
+          "datatype": 0.1,
+          "flags": "TRW",
+          "type": "actuator",
+          "id": 21,
+          "name": "Dimmer 5 on/off",
+          "default": 1
+        }
+      ]
+    },
+
+    {
+      "name": "Shutters 1",
+      "objects": [
+        {
+          "options":{
+            "0":"Disabled",
+            "1":"Enabled"
+          },
+          "description": "Enable/Disable Shutters 1.",
+          "datatype": 0,
+          "flags": "",
+          "type": "config",
+          "id": 22,
+          "name": "Shutters 1 scene",
+          "default": 1
+        },
+        {
+          "datatype": 1.3,
+          "flags": "TRW",
+          "type": "actuator",
+          "id": 23,
+          "name": "Shutters 1",
+          "default": 1
+        }
+      ]
+    },
+
+    {
+      "name": "Shutters 2",
+      "objects": [
+        {
+          "options":{
+            "0":"Disabled",
+            "1":"Enabled"
+          },
+          "description": "Enable/Disable Shutters 2.",
+          "datatype": 0,
+          "flags": "",
+          "type": "config",
+          "id": 24,
+          "name": "Shutters 2 scene",
+          "default": 1
+        },
+        {
+          "datatype": 1.3,
+          "flags": "TRW",
+          "type": "actuator",
+          "id": 25,
+          "name": "Shutters 2",
+          "default": 1
+        }
+      ]
+    },
+
+    {
+      "name": "Shutters 3",
+      "objects": [
+        {
+          "options":{
+            "0":"Disabled",
+            "1":"Enabled"
+          },
+          "description": "Enable/Disable Shutters 3.",
+          "datatype": 0,
+          "flags": "",
+          "type": "config",
+          "id": 26,
+          "name": "Shutters 3 scene",
+          "default": 1
+        },
+        {
+          "datatype": 1.3,
+          "flags": "TRW",
+          "type": "actuator",
+          "id": 27,
+          "name": "Shutters 3",
+          "default": 1
+        }
+      ]
+    },
+
+    {
+      "name": "Volume",
+      "objects": [
+        {
+          "options":{
+            "0":"Disabled",
+            "1":"Enabled"
+          },
+          "description": "Enable/Disable Volume.",
+          "datatype": 0,
+          "flags": "",
+          "type": "config",
+          "id": 28,
+          "name": "Volume scene",
+          "default": 1
+        },
+
+		    {
+          "datatype": 1.3,
+          "flags": "TRW",
+          "type": "actuator",
+          "id": 29,
+          "name": "Volume level",
+          "default": 1
+        },
+
+        {
+          "datatype": 0.1,
+          "flags": "TRW",
+          "type": "actuator",
+          "id": 30,
+          "name": "Play/Pause",
+          "default": 1
+        },
+
+        {
+          "datatype": 0.1,
+          "flags": "TRW",
+          "type": "actuator",
+          "id": 31,
+          "name": "Unmute/Mute",
+          "default": 1
+        }
+      ]
+    },
+
+    {
+      "name": "Circle scene",
+      "objects": [
+        {
+          "options":{
+            "0":"Disabled",
+            "1":"Enabled"
+          },
+          "description": "Enable/Disable Circle scene.",
+          "datatype": 0,
+          "flags": "",
+          "type": "config",
+          "id": 32,
+          "name": "Circle scene",
+          "default": 1
+        },
+        {
+          "datatype": 0.1,
+          "flags": "TRW",
+          "type": "actuator",
+          "id": 33,
+          "name": "Circle top left",
+          "default": 1
+        },
+        {
+          "datatype": 0.1,
+          "flags": "TRW",
+          "type": "actuator",
+          "id": 34,
+          "name": "Circle top right",
+          "default": 1
+        },
+        {
+          "datatype": 0.1,
+          "flags": "TRW",
+          "type": "actuator",
+          "id": 35,
+          "name": "Circle bottom left",
+          "default": 1
+        },
+        {
+          "datatype": 0.1,
+          "flags": "TRW",
+          "type": "actuator",
+          "id": 36,
+          "name": "Circle bottom right",
+          "default": 1
+        }
+      ]
+    },
+
+    {
+      "name": "Alert",
+      "objects": [
+		    {
+          "datatype": 1.1,
+          "flags": "TRW",
+          "type": "actuator",
+          "id": 37,
+          "name": "Alert",
+          "default": 1
+        }
+      ]
+    },
+
+    {
+      "name": "RTC clock",
+      "objects": [
+        {
+          "datatype": 4.4,
+          "flags": "TRW",
+          "type": "actuator",
+          "id": 38,
+          "name": "RTC clock",
+          "default": 1
+        }
+      ]
+    },
+
+    {
+      "name": "RFID UID",
+      "objects": [
+        {
+          "datatype": 8.1,
+          "flags": "TRW",
+          "type": "actuator",
+          "id": 39,
+          "name": "RFID UID",
+          "default": 1
+        }
+      ]
+    }
+    
+  ],
+  "hardware_id": 26,
+  "name": "M5DIAL",
+  "software_id": 1
+}
