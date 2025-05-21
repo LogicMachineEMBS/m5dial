@@ -51,3 +51,9 @@ Key technical advantages and design principles:
 
 <br>
 M5Dial is not just another smart panel; it is a purposefully designed HMI (Human-Machine Interface) component intended for seamless integration into reliable, wired automation systems controlled by LogicMachine. Its strengths lie in the choice of protocol (CANx for reliability), direct integration path with KNX, Zigbee, ModBus, DALI, flexibly configurable but inherently simple user interface, and focus on necessary, reliable functionality. This makes it an attractive choice for projects where long-term stability, ease of use for the end client, and straightforward commissioning are paramount.
+
+
+# M5Dial firmware upload
+
+1. Donwload [Flash Download Tools"](https://www.espressif.com/en/support/download/other-tools)
+
