@@ -16,23 +16,26 @@ M5Dial is conceived as a specialized, reliable interface node in an automation s
 Key technical advantages and design principles:
 
 1.) User-oriented, minimalist interface:
+
 * Contextual relevance: Users can completely hide unused functions (scenes, controls), leaving only the most necessary. This radically reduces interface clutter and improves usability.
 
 * Intuitive grouping: Icons in the same functional group (e.g., lighting, climate) are differentiated by color, helping to quickly identify them visually and reducing the need to memorize abstract symbols.
 
 * Elimination of erroneous presses: M5Dial uses a rotary encoder with push function (implied from phrases "click on it" and "no small buttons"), providing clear, tactile input instead of imprecise small touch elements.
 
-<br>
+
 2.) Consolidated functionality, reduction in the number of panels:
+
 * M5Dial acts as a universal control point, capable of managing diverse functions that typically require separate specialized panels (e.g., thermostat, dimmer, blind control, scene activation). This simplifies wall mounting aesthetics and reduces equipment redundancy.
 
-<br>
+
 3.) Core based on CANx protocol:
+
 * Reliability of wired connection: We deliberately opted against Wi-Fi for device control in favor of CANx (CAN FT) wired connection. This provides a dedicated, reliable communication bus, significantly less susceptible to interference, latency issues, and security vulnerabilities characteristic of common wireless environments.
 
 * Seamless integration with LogicMachine and KNX: M5Dial functions as a native CANx device. Through LogicMachine, which serves as the intelligent core of the system, CANx objects are transparently mapped to KNX group addresses. This allows M5Dial to effectively control any KNX device or system function managed by LogicMachine (including any other protocols supported by LogicMachine - KNX, ZigBee, Modbus, DALI, etc.), extending its usefulness far beyond basic CANx peripherals.
 
-<br>
+
 4.) Designed for long-term utility:
 
 * Priority - core functionality: Focus on reliable provision of key control functions, ensuring that the device remains an integral part of everyday life.
