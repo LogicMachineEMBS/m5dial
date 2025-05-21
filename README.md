@@ -15,13 +15,10 @@ M5Dial is conceived as a specialized, reliable interface node in an automation s
 
 Key technical advantages and design principles:
 
-  1. User-oriented, minimalist interface:
-
-    1.1. Contextual relevance: Users can completely hide unused functions (scenes, controls), leaving only the most necessary. This radically reduces interface clutter and improves usability.
-
-    1.2. Intuitive grouping: Icons in the same functional group (e.g., lighting, climate) are differentiated by color, helping to quickly identify them visually and reducing the need to memorize abstract symbols.
-
-    1.3. Elimination of erroneous presses: M5Dial uses a rotary encoder with push function (implied from phrases "click on it" and "no small buttons"), providing clear, tactile input instead of imprecise small touch elements.
+1.) User-oriented, minimalist interface:
+1.1.) Contextual relevance: Users can completely hide unused functions (scenes, controls), leaving only the most necessary. This radically reduces interface clutter and improves usability.
+1.2.) Intuitive grouping: Icons in the same functional group (e.g., lighting, climate) are differentiated by color, helping to quickly identify them visually and reducing the need to memorize abstract symbols.
+1.3.) Elimination of erroneous presses: M5Dial uses a rotary encoder with push function (implied from phrases "click on it" and "no small buttons"), providing clear, tactile input instead of imprecise small touch elements.
 
   2.) Consolidated functionality, reduction in the number of panels:
 
