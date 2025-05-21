@@ -55,5 +55,8 @@ M5Dial is not just another smart panel; it is a purposefully designed HMI (Human
 
 # M5Dial firmware upload
 
-1. Donwload [Flash Download Tools"](https://www.espressif.com/en/support/download/other-tools)
+1. Download [Flash Download Tools](https://www.espressif.com/en/support/download/other-tools)
 
+2. Connect M5Dial device to PC via USB while holding the programming button
+
+![fw_upload_01](pictures/fw_upload_01.png)
