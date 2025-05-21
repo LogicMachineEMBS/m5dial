@@ -52,7 +52,7 @@ local unix_time = os.time()
 local hour = 3600
 unix_time = unix_time + hour*timezone
 canx.write('0/0/15', unix_time)
-<pre>
+</pre>
 
 In this case, 0/0/15 is the group address for RTC-clock.
 Now, when you write the value of your time zone, for example, +3, to the group address "1 byte signed integer", the script will calculate the correct time and send it to the M5Dial device (which will save all the settings and reboot the M5Dial)
