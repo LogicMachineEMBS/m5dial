@@ -75,3 +75,6 @@ M5Dial is not just another smart panel; it is a purposefully designed HMI (Human
 * Choose the required firmware.bin file and set address (after @) to 0
 * Select correct COM port as detected by the OS
 * Press Start
+
+![fw_upload_03](pictures/fw_upload_03.png)
+
