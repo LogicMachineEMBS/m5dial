@@ -55,7 +55,7 @@ M5Dial is not just another smart panel; it is a purposefully designed HMI (Human
 
 # How to get the M5Dial
 
-* You can by M5Dial and then upload our firmware by -> [buy](https://shop.m5stack.com/products/m5stack-dial-v1-1)
+* You can buy M5Dial and then upload our firmware by -> [buy](https://shop.m5stack.com/products/m5stack-dial-v1-1)
 * You also need a M5CANx wire which design, BOM and links are freely available in this project, directory - CANx_wire_scheme_and_BOM
 
 
