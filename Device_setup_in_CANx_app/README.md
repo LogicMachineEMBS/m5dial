@@ -6,7 +6,7 @@
 
 3. Connect the M5CANX cable to the M5Dial and to the LogicMachine (to the CANx, not the KNX)
 
-![m5dial_configure_01](pictures/m5dial_configure_01.png)
+![m5dial_configure_01](pictures/m5dial_configure_01.jpg)
 
 4. Power the M5Dial device (it can be powered via USB or a power supply with a voltage range of 6 to 36 volts)
 
