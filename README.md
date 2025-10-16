@@ -15,7 +15,9 @@ Existing control panels often suffer from:
 M5Dial solves common problems of smart home/building control panels by moving away from feature-overloaded interfaces and unreliable wireless communication. Our design philosophy prioritizes simplicity, reliability, and real benefit for both the end user and system integrator.
 
 <p align="center">
+
 [![M5Dial_vid](https://img.youtube.com/vi/xYmsZf2hdNc/0.jpg)](https://www.youtube.com/watch?v=xYmsZf2hdNc)
+
 </p>
 
 ## M5Dial Approach: Designed with Purpose
