@@ -18,7 +18,7 @@ M5Dial solves common problems of smart home/building control panels by moving aw
 ## Youtube video
 <div align="center">
 
-[![M5Dial_vid](https://img.youtube.com/vi/xYmsZf2hdNc/0.jpg)](https://www.youtube.com/watch?v=xYmsZf2hdNc)
+[![M5Dial_vid](https://img.youtube.com/vi/R0AVrFbOOUg/0.jpg)](https://www.youtube.com/watch?v=R0AVrFbOOUg)
 
 </div>
 
