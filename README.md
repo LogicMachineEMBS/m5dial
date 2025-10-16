@@ -14,6 +14,8 @@ Existing control panels often suffer from:
 
 M5Dial solves common problems of smart home/building control panels by moving away from feature-overloaded interfaces and unreliable wireless communication. Our design philosophy prioritizes simplicity, reliability, and real benefit for both the end user and system integrator.
 
+[![M5Dial_vid](https://img.youtube.com/vi/xYmsZf2hdNc/0.jpg)](https://www.youtube.com/watch?v=xYmsZf2hdNc)
+
 ## M5Dial Approach: Designed with Purpose
 
 M5Dial is conceived as a specialized, reliable interface node in an automation system built around LogicMachine.
@@ -38,7 +40,7 @@ Key technical advantages and design principles:
 
 * Reliability of wired connection: We deliberately opted against Wi-Fi for device control in favor of CANx (CAN FT) wired connection. This provides a dedicated, reliable communication bus, significantly less susceptible to interference, latency issues, and security vulnerabilities characteristic of common wireless environments.
 
-* Seamless integration with LogicMachine and KNX: M5Dial functions as a native CANx device. Through LogicMachine, which serves as the intelligent core of the system, CANx objects are transparently mapped to KNX group addresses. This allows M5Dial to effectively control any KNX device or system function managed by LogicMachine (including any other protocols supported by LogicMachine - KNX, ZigBee, Modbus, DALI, etc.), extending its usefulness far beyond basic CANx peripherals.
+* Seamless integration with LogicMachine and KNX: M5Dial functions as a native CANx device. Through LogicMachine, which serves as the intelligent core of the system, CANx objects are transparently mapped to KNX group addresses. This allows M5Dial to effectively control any KNX device or system function managed by LogicMachine (including any other protocols supported by LogicMachine - KNX, ZigBee, Modbus, DALI, BACnet, etc.), extending its usefulness far beyond basic CANx peripherals.
 
 
 4.) Designed for long-term utility:
@@ -50,7 +52,7 @@ Key technical advantages and design principles:
 * Direct scene invocation: Scenes programmed in LogicMachine can be triggered via CANx binary objects with a single interaction with M5Dial, simplifying complex automation sequences for the end user.
 
 <br>
-M5Dial is not just another smart panel; it is a purposefully designed HMI (Human-Machine Interface) component intended for seamless integration into reliable, wired automation systems controlled by LogicMachine. Its strengths lie in the choice of protocol (CANx for reliability), direct integration path with KNX, Zigbee, ModBus, DALI, flexibly configurable but inherently simple user interface, and focus on necessary, reliable functionality. This makes it an attractive choice for projects where long-term stability, ease of use for the end client, and straightforward commissioning are paramount.
+M5Dial is not just another smart panel; it is a purposefully designed HMI (Human-Machine Interface) component intended for seamless integration into reliable, wired automation systems controlled by LogicMachine. Its strengths lie in the choice of protocol (CANx for reliability), direct integration path with KNX, Zigbee, ModBus, DALI, BACnet, flexibly configurable but inherently simple user interface, and focus on necessary, reliable functionality. This makes it an attractive choice for projects where long-term stability, ease of use for the end client, and straightforward commissioning are paramount.
 
 
 # How to get the M5Dial
