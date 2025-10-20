@@ -1,0 +1,19 @@
+========================================================================================================================
+File Design Information:
+
+Date:       20/10/25
+Time:       11:17
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mm
+
+"Designator","Layer","Footprint","Ref-X(mm)","Ref-Y(mm)","Rotation","Comment"
+"R5_C1","TopLayer","RESC1608L","6.2000","21.3000","270","3K6"
+"U_C1","TopLayer","SOIC14_N","6.1000","16.1000","270","TJA1055T/3/C,518"
+"C_C6","TopLayer","CAPC1608L","4.0000","20.5000","180","1u"
+"D3","TopLayer","SOT23_N","6.5000","9.9000","270","PESD2CAN"
+"C_C5","TopLayer","CAPC1608L","4.0000","22.0000","180","100n"
+"C_C4","TopLayer","CAPC1608L","10.0000","10.7000","270","100n"
+"R17","TopLayer","RESC1608L","2.1000","10.9000","90","3K6"
+"R18","TopLayer","RESC1608L","3.7000","10.9000","90","3K6"
+"R3_C1","TopLayer","RESC1608L","7.7000","21.3000","270","3K6"
